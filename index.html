@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web map</title>
+    <!--Mapbox CDN link-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.18.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.18.1/mapbox-gl.css' rel='stylesheet' />
+    <!-- link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to bootstrap style sheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+
+
+<body style="background-color:rgb(54, 51, 65);">
+    <div class="container-md text-center p-4 mx-auto text-white">
+        <div class="row">
+            <div class="col-md">
+            </div>
+            <div class="col-md">
+                <h1 class="heading-text">Map of blank</h1>
+                <p class="body-text">interesting text</p>
+            </div>
+            <div class="col-xxl">
+            </div>
+        </div>
+    </div>
+    <div class="container-md">
+        <!-- bootstrap center map -->
+        <div class="row">
+            <div class="col-md">
+            </div>
+            <div class="col-md">
+                <div id="my-map" class="map-container"></div>
+                <script src="script.js"></script>
+            </div>
+            <div class="col-md">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

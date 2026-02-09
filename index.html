@@ -17,7 +17,7 @@
 
 
 
-<body style="background-color:rgb(54, 51, 65);"> 
+<body style="background-color:rgb(54, 51, 65);">
     <!-- centered heading and body text -->
     <div class="container-md text-center p-4">
         <div class="row">
@@ -25,27 +25,42 @@
             </div>
             <div class="col-md">
                 <!-- give text classes to edit in CSS -->
-                <h1 class="heading-text">Toronto's Lost Rivers</h1> 
-                <p class="body-text">Due to urban development, a once sprawling drainage basin has been limited to designated rivers and ravines, as natural hydrological processes are now controlled by humans through reservoirs and sewer systems.</p>
+                <h1 class="heading-text">Toronto's Lost Rivers</h1>
+                <p class="body-text">Due to urban development, a once sprawling drainage basin has been limited to
+                    designated rivers and ravines, as natural hydrological processes are now controlled by humans
+                    through reservoirs and sewer systems.</p>
             </div>
             <div class="col-md">
             </div>
         </div>
-    </div>
-    <div class="container-md">
-        <!-- bootstrap center map through 3 columns to match text -->
-         <!-- i have no clue why the map doesn't align exactly with the text and goes to the left when shrinking the window, but i'm just going to assume this is the nature of a map window -->
-        <div class="row">
-            <div class="col-md">
+
+        <div class="container-md text-center second-container">
+            <div class="row">
+                <div class="col-md">
+                </div>
+                <div class="col-md">
+                </div>
+
+                <div class="col-md">
+                    <button type="button" class="btn btn-primary" id="btn1">Map Source</button>
+                </div>
+                <div class="col-md">
+                    <button type="button" class="btn btn-primary" id="btn2">Learn More</button>
+                </div>
+                <div class="col-md">
+                </div>
+
+                <div class="col-md">
+                </div>
             </div>
-            <div class="col-md">
-                <div id="my-map" class="map-container"></div>
-                <script src="script.js"></script>
-            </div>
-            <div class="col-md">
-            </div>
+
         </div>
-    </div>
+
+        <!-- bootstrap center map through flexport -->
+        <div class="d-flex justify-content-center">
+            <div id="my-map" class="map-container"></div>
+            <script src="script.js"></script>
+        </div>
 </body>
 
 </html>

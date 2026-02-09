@@ -5,7 +5,7 @@
     position: absolute;
     top: 1;
     bottom: 1;
-    width: 30%;
+    width: 35%;
     height: 50%;
 }
 /* adjusting positioning, size, and border of the map */
@@ -21,3 +21,21 @@
     color: antiquewhite;
 }
 /* body text colour */
+
+/* make buttons closer to text than map */
+.second-container {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(167, 122, 71) !important;
+    border-color: rgb(167, 122, 71) !important;
+}
+
+.btn-primary:hover {
+    color: rgb(92, 36, 16) !important;
+    background-color: antiquewhite !important;
+    border-color: antiquewhite !important;
+}
